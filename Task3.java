@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class Task3{
     // program to reverse the given number
     public static void main( String [] args ){
-    Scanner s = new Scanner(System.in);
+    Scanner obj = new Scanner(System.in);
     System.out.println("Enter the value needed to be reversed:");
-    int n = s.nextInt();
+    int n = obj.nextInt();
     int r = 0;
     while( n != 0){
         int r1 = n % 10;
