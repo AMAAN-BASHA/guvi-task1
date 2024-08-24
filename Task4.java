@@ -3,15 +3,15 @@ public class Task4{
     // program to get the reversed number
     public static void main( String [] args) {
         System.out.println("Enter the number needed to be reversed : ");
-        Scanner sc = new Scanner ( System.in );
+        Scanner obj = new Scanner ( System.in );
         System.out.println("Enter the first number:");
-        int a = sc.nextInt();
+        int a = obj.nextInt();
 
         System.out.println("Enter the second number:");
-        int b = sc.nextInt();
+        int b = obj.nextInt();
 
         System.out.println("Enter the third number:");
-        int c = sc.nextInt();
+        int c = obj.nextInt();
 
         int smallest;
 
