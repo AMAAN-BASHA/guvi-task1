@@ -2,11 +2,11 @@ import java.util.Scanner;
 public class Task1 {
     // program to print 10 to 50
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner obj = new Scanner(System.in);
         System.out.println("Enter the value needed");
-        int n = scanner.nextInt();
+        int n = obj.nextInt();
         System.out.println("Enter the value needed");
-        int m = scanner.nextInt();
+        int m = obj.nextInt();
         for(int i = n ; i <= m; i++)
         {
             System.out.println(i);
