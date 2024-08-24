@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Task6 {
+public class Task6 {//program to print the given pattern;
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         int n = obj.nextInt();
